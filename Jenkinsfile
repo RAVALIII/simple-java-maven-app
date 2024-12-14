@@ -5,16 +5,11 @@ pipeline {
             steps {
                 sh 'mvn -B -DskipTests clean package' 
             }
-        stage('test') {
+        stage('tetsing') { 
             steps {
-                 echo "Hello ravali"
-            }
-        stage('test2') {
-            steps {
-                 echo "Hello ravali, Iam testing"
-            }
+                ech 'ravali In testing' 
+            }   
         }
-    }
-}
+        }
     }
 }
