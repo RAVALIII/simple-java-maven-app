@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Header_1') {
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                echo "hello Ravali"
             }
         }
         stage('Header_2') {
